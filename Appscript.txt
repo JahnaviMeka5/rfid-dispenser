@@ -1,0 +1,29 @@
+function doGet(e) {
+  // Get the active spreadsheet and the first sheet within it.
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
+
+  // Get the parameters from the GET request URL.
+  var uid = e.parameter.uid;
+  var holderName = e.parameter.holderName;
+  var medicineName = e.parameter.medicineName;
+  var dispensed = e.parameter.dispensed;
+  
+  // Get the current date and time.
+  var timestamp = new Date();
+
+  // Create an array with the data to be appended.
+  // The order of the values in this array should match the order of your columns in the sheet.
+  var rowData = [
+    timestamp,
+    uid,
+    holderName,
+    medicineName,
+    dispensed
+  ];
+  
+  // Append the row of data to the last row of the sheet.
+  sheet.appendRow(rowData);
+
+  // Return a success message. This is what the ESP8266 will receive.
+  return ContentService.createTextOutput("Success");
+}
