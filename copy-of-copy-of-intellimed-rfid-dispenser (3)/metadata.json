@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of IntelliMed RFID Dispenser",
+  "description": "An intelligent RFID-based medication dispenser with AI-powered health coaching, patient monitoring, and administrative tools.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
