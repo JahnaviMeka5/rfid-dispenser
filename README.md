@@ -153,8 +153,8 @@ The system ensures that patients receive the **correct medicine at the correct t
 ## 📊 Data Flow
 
 ```
-RFID → ESP8266 → RTC Check → Servo Action → Cloud Logging
-```
+<img width="616" height="741" alt="image" src="https://github.com/user-attachments/assets/8c414f11-f8bc-4c3e-b328-9ff6e686a0ac" />
+
 
 ---
 
@@ -188,9 +188,13 @@ RFID → ESP8266 → RTC Check → Servo Action → Cloud Logging
 
 ## 📷 Project Demonstration
 
-(Add images / video links here)
+<img width="718" height="423" alt="image" src="https://github.com/user-attachments/assets/4d8ab1c5-2f4f-4eb8-b494-90eca0c16447" />
+<img width="800" height="409" alt="image" src="https://github.com/user-attachments/assets/e807ec62-6b60-48ff-8cc3-9ff15d0faec0" />
+<img width="940" height="421" alt="image" src="https://github.com/user-attachments/assets/567cc1a6-34b4-4900-a2f6-4a36535b83da" />
+<img width="940" height="426" alt="image" src="https://github.com/user-attachments/assets/c8a815c8-810b-49f7-92ce-7f5eb54575b9" />
+<img width="648" height="359" alt="image" src="https://github.com/user-attachments/assets/161f605f-0f6b-4e89-819f-877e9b5cdd12" />
+<img width="644" height="366" alt="image" src="https://github.com/user-attachments/assets/428af91b-6ec4-440f-9de0-113887ba252d" />
 
----
 
 ## 🧪 Applications
 
